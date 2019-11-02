@@ -1,0 +1,18 @@
+==========================
+         README
+==========================
+
+This repository includes scripts of PCA, SVD and t-SNE.
+To perform dimension reduction using specific method on some dataset, follow the instructions below:
+
+1. Copy the datasets to this directory.
+
+2. Run commands in terminal:
+   $ python3 pca.py <file_name>
+   $ python3 svd.py <file_name>
+   $ python3 t_SNE.py <file_name>
+
+   Replace <file_name> with the file to be processed. 
+   E.g. python3 pca.py pca_demo.txt would perform pca on pca_demo.txt.
+
+3. Observe plots
